@@ -16,7 +16,18 @@ This flake sets up:
 ---
 
 ## 🧱 Directory Structure
-
+```
+arbok_database/
+├── flake.nix
+├── config/
+│   ├── postgresql.conf       # Custom PostgreSQL configuration template
+│   └── pg_hba.conf           # Host-based authentication config
+├── data/                     # Created automatically by shellHook
+│   ├── pgdata/               # PostgreSQL data directory (after initdb)
+│   ├── pgsock/               # UNIX socket directory for PostgreSQL
+│   └── minio/                # MinIO data storage root
+└── minio.log                 # Runtime log written when MinIO starts
+```
 
 
 ---
