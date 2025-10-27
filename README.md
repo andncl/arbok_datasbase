@@ -29,7 +29,6 @@ This flake sets up:
 nix develop
 
 ### Start/Stop PostgreSQL
-```bash
 pg_ctl -D "$PGDATA" -o "-k $PGSOCKET" -l logfile start
 pg_ctl -D "$PGDATA" -o "-k $PGSOCKET" stopi
 ```
