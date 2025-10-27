@@ -4,7 +4,7 @@ A reproducible development environment providing a **PostgreSQL measurement data
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This flake sets up:
 
